@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\source\\repos\\PamTcc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\danie\\source\\repos\\pamtcc\\models\\sugestao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:models\\sugestao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\danie\\source\\repos\\pamtcc\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\danie\\source\\repos\\pamtcc\\services\\sugestaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:services\\sugestaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\danie\\source\\repos\\pamtcc\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\danie\\source\\repos\\pamtcc\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\danie\\source\\repos\\pamtcc\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\danie\\source\\repos\\pamtcc\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\PamTcc\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\PamTcc\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T01:44:18.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\PamTcc\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\PamTcc\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-20T01:43:58.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\PamTcc\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\PamTcc\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAADwv38AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T01:41:50.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\PamTcc\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\PamTcc\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "Services\\UsuarioService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwFIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T01:39:29.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SugestaoService.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\PamTcc\\Services\\SugestaoService.cs",
+              "RelativeDocumentMoniker": "Services\\SugestaoService.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\PamTcc\\Services\\SugestaoService.cs",
+              "RelativeToolTip": "Services\\SugestaoService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T01:38:32.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\PamTcc\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\PamTcc\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T01:37:54.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sugestao.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\PamTcc\\Models\\Sugestao.cs",
+              "RelativeDocumentMoniker": "Models\\Sugestao.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\PamTcc\\Models\\Sugestao.cs",
+              "RelativeToolTip": "Models\\Sugestao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T01:37:18.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
