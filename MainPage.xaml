@@ -12,7 +12,6 @@
                    HorizontalOptions="Center"
                    HorizontalTextAlignment="Center" />
 
-            <!-- Botão de Atualizar -->
             <Button Text="Atualizar Dados"
                     Clicked="OnAtualizarClicked"
                     BackgroundColor="#2196F3"
@@ -22,14 +21,12 @@
                     Padding="12"
                     HorizontalOptions="FillAndExpand" />
 
-            <!-- Lista de Usuários com Sugestões -->
             <CollectionView ItemsSource="{Binding Usuarios}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame BorderColor="Gray" Padding="10" Margin="5" CornerRadius="8">
                             <VerticalStackLayout Spacing="5">
 
-                                <!-- Nome e Telefone -->
                                 <Label Text="{Binding Nome}"
                                        FontAttributes="Bold"
                                        FontSize="18"
@@ -39,13 +36,10 @@
                                        FontSize="14"
                                        TextColor="Gray" />
 
-                                <!-- Título da seção de sugestões -->
                                 <Label Text="Sugestões:"
                                        FontAttributes="Bold"
                                        FontSize="16"
                                        Margin="0,5,0,0" />
-
-                                <!-- Lista de Sugestões -->
                                 <StackLayout Margin="10,0,0,0"
                                              BindableLayout.ItemsSource="{Binding Sugestoes}">
                                     <BindableLayout.ItemTemplate>
@@ -63,8 +57,6 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-
-            <!-- Status da Operação -->
             <Label Text="{Binding StatusMessage}"
                    FontAttributes="Italic"
                    FontSize="12"

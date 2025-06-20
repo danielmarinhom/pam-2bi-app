@@ -21,8 +21,8 @@ namespace PamTcc
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao carregar dados: {ex.Message}");
-                await DisplayAlert("Erro", $"Ocorreu um erro ao carregar os dados: {ex.Message}", "OK");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
+                await DisplayAlert("Erro", $"{ex.Message}", "OK");
             }
         }
 

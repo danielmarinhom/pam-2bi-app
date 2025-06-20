@@ -14,7 +14,7 @@ namespace PamTcc.Services
         {
             _http = new HttpClient
             {
-                BaseAddress = new Uri("http://localhost:5125/")
+                BaseAddress = new Uri("http://localhost:5125/") //local
             };
         }
 
@@ -26,7 +26,7 @@ namespace PamTcc.Services
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao buscar usuários: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
                 return null;
             }
         }
@@ -39,7 +39,7 @@ namespace PamTcc.Services
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao buscar usuário por ID: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
                 return null;
             }
         }
@@ -53,7 +53,7 @@ namespace PamTcc.Services
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao criar usuário: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
                 return false;
             }
         }
@@ -67,7 +67,7 @@ namespace PamTcc.Services
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao atualizar usuário: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
                 return false;
             }
         }
@@ -81,7 +81,7 @@ namespace PamTcc.Services
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao deletar usuário: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
                 return false;
             }
         }

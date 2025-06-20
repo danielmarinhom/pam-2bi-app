@@ -40,7 +40,7 @@ namespace PamTcc.ViewModels
             var result = await _usuarioService.CreateUsuarioAsync(usuario);
             if (result)
             {
-                StatusMessage = "Usuário adicionado!";
+                StatusMessage = "Adicionado";
             }
             return result;
         }
@@ -50,7 +50,7 @@ namespace PamTcc.ViewModels
             var result = await _usuarioService.UpdateUsuarioAsync(usuario.Id, usuario);
             if (result)
             {
-                StatusMessage = "Usuário atualizado!";
+                StatusMessage = "Atualizado";
             }
             return result;
         }
@@ -60,7 +60,7 @@ namespace PamTcc.ViewModels
             var result = await _usuarioService.DeleteUsuarioAsync(id);
             if (result)
             {
-                StatusMessage = "Usuário deletado!";
+                StatusMessage = "Deletado";
             }
             return result;
         }
@@ -77,12 +77,12 @@ namespace PamTcc.ViewModels
                     foreach (var usuario in lista)
                         Usuarios.Add(usuario);
 
-                    StatusMessage = $"Carregado {Usuarios.Count} usuários.";
+                    StatusMessage = $"Carregou {Usuarios.Count} ";
                 }
             }
             catch (Exception ex)
             {
-                StatusMessage = $"Erro ao carregar usuários: {ex.Message}";
+                StatusMessage = $"Erro: {ex.Message}";
             }
         }
 
@@ -92,7 +92,7 @@ namespace PamTcc.ViewModels
             var result = await _sugestaoService.CreateSugestaoAsync(sugestao);
             if (result)
             {
-                StatusMessage = "Sugestão adicionada!";
+                StatusMessage = "Adicionada";
             }
             return result;
         }
@@ -102,7 +102,7 @@ namespace PamTcc.ViewModels
             var result = await _sugestaoService.UpdateSugestaoAsync(sugestao.Id, sugestao);
             if (result)
             {
-                StatusMessage = "Sugestão atualizada!";
+                StatusMessage = "Atualizada";
             }
             return result;
         }
@@ -112,7 +112,7 @@ namespace PamTcc.ViewModels
             var result = await _sugestaoService.DeleteSugestaoAsync(id);
             if (result)
             {
-                StatusMessage = "Sugestão deletada!";
+                StatusMessage = "Deletada";
             }
             return result;
         }
@@ -133,16 +133,16 @@ namespace PamTcc.ViewModels
                         Usuarios.Add(usuario);
                     }
 
-                    StatusMessage = $"Carregado {Usuarios.Count} usuários com sugestões.";
+                    StatusMessage = $"Carregou {Usuarios.Count}";
                 }
                 else
                 {
-                    StatusMessage = "Nenhum usuário encontrado.";
+                    StatusMessage = "Nenhum usuário";
                 }
             }
             catch (Exception ex)
             {
-                StatusMessage = $"Erro ao carregar dados: {ex.Message}";
+                StatusMessage = $"Erro: {ex.Message}";
             }
         }
 
@@ -159,12 +159,12 @@ namespace PamTcc.ViewModels
                     foreach (var sugestao in lista)
                         Sugestoes.Add(sugestao);
 
-                    StatusMessage = $"Carregado {Sugestoes.Count} sugestões.";
+                    StatusMessage = $"Carregou {Sugestoes.Count}";
                 }
             }
             catch (Exception ex)
             {
-                StatusMessage = $"Erro ao carregar sugestões: {ex.Message}";
+                StatusMessage = $"Erro: {ex.Message}";
             }
         }
     }

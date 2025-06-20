@@ -14,7 +14,7 @@ namespace PamTcc.Services
         {
             _http = new HttpClient
             {
-                BaseAddress = new Uri("http://localhost:5125/") // Certifique-se que isso corresponde ao seu backend real
+                BaseAddress = new Uri("http://localhost:5125/") //roda local
             };
         }
 
@@ -26,7 +26,7 @@ namespace PamTcc.Services
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao buscar sugestões: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
                 return null;
             }
         }
@@ -39,7 +39,7 @@ namespace PamTcc.Services
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao buscar sugestão por ID: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
                 return null;
             }
         }
@@ -53,7 +53,7 @@ namespace PamTcc.Services
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao criar sugestão: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
                 return false;
             }
         }
@@ -67,7 +67,7 @@ namespace PamTcc.Services
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao atualizar sugestão: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
                 return false;
             }
         }
@@ -81,7 +81,7 @@ namespace PamTcc.Services
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"Erro ao deletar sugestão: {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"Erro: {ex.Message}");
                 return false;
             }
         }
