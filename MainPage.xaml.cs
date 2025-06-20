@@ -17,13 +17,11 @@ namespace PamTcc
         {
             try
             {
-                await _viewModel.LoadUsuariosAsync();
-                await _viewModel.LoadSugestoesAsync();
+                await _viewModel.LoadUsuariosComSugestoesAsync();
             }
             catch (Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine($"Erro ao carregar dados: {ex.Message}");
-
                 await DisplayAlert("Erro", $"Ocorreu um erro ao carregar os dados: {ex.Message}", "OK");
             }
         }

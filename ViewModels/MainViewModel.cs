@@ -116,6 +116,36 @@ namespace PamTcc.ViewModels
             }
             return result;
         }
+        public async Task LoadUsuariosComSugestoesAsync()
+        {
+            try
+            {
+                var usuarios = await _usuarioService.GetAllUsuariosAsync();
+                var sugestoes = await _sugestaoService.GetAllSugestoesAsync();
+
+                Usuarios.Clear();
+
+                if (usuarios != null)
+                {
+                    foreach (var usuario in usuarios)
+                    {
+                        usuario.Sugestoes = sugestoes?.FindAll(s => s.UsuarioId == usuario.Id) ?? new();
+                        Usuarios.Add(usuario);
+                    }
+
+                    StatusMessage = $"Carregado {Usuarios.Count} usuários com sugestões.";
+                }
+                else
+                {
+                    StatusMessage = "Nenhum usuário encontrado.";
+                }
+            }
+            catch (Exception ex)
+            {
+                StatusMessage = $"Erro ao carregar dados: {ex.Message}";
+            }
+        }
+
 
         public async Task LoadSugestoesAsync()
         {

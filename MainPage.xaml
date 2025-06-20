@@ -1,32 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PamTcc.MainPage">
+             x:Class="PamTcc.MainPage"
+             Title="Usuários e Sugestões">
 
     <ScrollView>
-        <VerticalStackLayout Padding="10" Spacing="10">
+        <VerticalStackLayout Padding="10" Spacing="15">
 
-            <Label Text="Usuários e suas Sugestões" 
-               FontSize="24"
-               HorizontalOptions="Center" />
+            <Label Text="Usuários      Sugestões"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center" />
 
+            <!-- Botão de Atualizar -->
+            <Button Text="Atualizar Dados"
+                    Clicked="OnAtualizarClicked"
+                    BackgroundColor="#2196F3"
+                    TextColor="White"
+                    CornerRadius="12"
+                    FontAttributes="Bold"
+                    Padding="12"
+                    HorizontalOptions="FillAndExpand" />
+
+            <!-- Lista de Usuários com Sugestões -->
             <CollectionView ItemsSource="{Binding Usuarios}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame BorderColor="Gray" Padding="10" Margin="5">
+                        <Frame BorderColor="Gray" Padding="10" Margin="5" CornerRadius="8">
                             <VerticalStackLayout Spacing="5">
 
-                                <Label Text="{Binding Nome}" FontAttributes="Bold" FontSize="18"/>
+                                <!-- Nome e Telefone -->
+                                <Label Text="{Binding Nome}"
+                                       FontAttributes="Bold"
+                                       FontSize="18"
+                                       TextColor="Black" />
 
-                                <Label Text="{Binding Telefone}" FontSize="14" TextColor="Gray"/>
+                                <Label Text="{Binding Telefone}"
+                                       FontSize="14"
+                                       TextColor="Gray" />
 
-                                <Label Text="Sugestões:" FontAttributes="Bold" FontSize="16" Margin="0,5,0,0"/>
+                                <!-- Título da seção de sugestões -->
+                                <Label Text="Sugestões:"
+                                       FontAttributes="Bold"
+                                       FontSize="16"
+                                       Margin="0,5,0,0" />
 
+                                <!-- Lista de Sugestões -->
                                 <StackLayout Margin="10,0,0,0"
-                                         BindableLayout.ItemsSource="{Binding Sugestoes}">
+                                             BindableLayout.ItemsSource="{Binding Sugestoes}">
                                     <BindableLayout.ItemTemplate>
                                         <DataTemplate>
-                                            <Label Text="{Binding Text}" FontSize="14" TextColor="DarkSlateGray"/>
+                                            <Label Text="{Binding Text}"
+                                                   FontSize="14"
+                                                   TextColor="DarkSlateGray"
+                                                   Margin="0,2,0,0" />
                                         </DataTemplate>
                                     </BindableLayout.ItemTemplate>
                                 </StackLayout>
@@ -37,7 +64,13 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <Label Text="{Binding StatusMessage}" FontAttributes="Italic" FontSize="12" TextColor="Green" />
+            <!-- Status da Operação -->
+            <Label Text="{Binding StatusMessage}"
+                   FontAttributes="Italic"
+                   FontSize="12"
+                   TextColor="Green"
+                   Margin="5,10,5,20"
+                   HorizontalTextAlignment="Center" />
 
         </VerticalStackLayout>
     </ScrollView>

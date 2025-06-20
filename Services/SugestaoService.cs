@@ -14,7 +14,7 @@ namespace PamTcc.Services
         {
             _http = new HttpClient
             {
-                BaseAddress = new Uri("http://localhost:5125/")
+                BaseAddress = new Uri("http://localhost:5125/") // Certifique-se que isso corresponde ao seu backend real
             };
         }
 
@@ -22,7 +22,7 @@ namespace PamTcc.Services
         {
             try
             {
-                return await _http.GetFromJsonAsync<List<Sugestao>>("sugestao");
+                return await _http.GetFromJsonAsync<List<Sugestao>>("api/sugestao");
             }
             catch (Exception ex)
             {
@@ -35,7 +35,7 @@ namespace PamTcc.Services
         {
             try
             {
-                return await _http.GetFromJsonAsync<Sugestao>($"sugestao/{id}");
+                return await _http.GetFromJsonAsync<Sugestao>($"api/sugestao/{id}");
             }
             catch (Exception ex)
             {
@@ -48,7 +48,7 @@ namespace PamTcc.Services
         {
             try
             {
-                var response = await _http.PostAsJsonAsync("sugestao", sugestao);
+                var response = await _http.PostAsJsonAsync("api/sugestao", sugestao);
                 return response.IsSuccessStatusCode;
             }
             catch (Exception ex)
@@ -62,7 +62,7 @@ namespace PamTcc.Services
         {
             try
             {
-                var response = await _http.PutAsJsonAsync($"sugestao/{id}", sugestao);
+                var response = await _http.PutAsJsonAsync($"api/sugestao/{id}", sugestao);
                 return response.IsSuccessStatusCode;
             }
             catch (Exception ex)
@@ -76,7 +76,7 @@ namespace PamTcc.Services
         {
             try
             {
-                var response = await _http.DeleteAsync($"sugestao/{id}");
+                var response = await _http.DeleteAsync($"api/sugestao/{id}");
                 return response.IsSuccessStatusCode;
             }
             catch (Exception ex)
