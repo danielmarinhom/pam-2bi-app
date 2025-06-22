@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\",
+  "WorkspaceRootPath": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\downloads\\pam-2bi-app-main\\pamtcc\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\downloads\\pam-2bi-app-main\\pamtcc\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\desktop\\daniel\\pam-2bi-app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\downloads\\pam-2bi-app-main\\pamtcc\\services\\sugestaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:services\\sugestaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\desktop\\daniel\\pam-2bi-app\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\downloads\\pam-2bi-app-main\\pamtcc\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\desktop\\daniel\\pam-2bi-app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\downloads\\pam-2bi-app-main\\pamtcc\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\downloads\\pam-2bi-app-main\\pamtcc\\models\\sugestao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\desktop\\daniel\\pam-2bi-app\\models\\sugestao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:models\\sugestao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\downloads\\pam-2bi-app-main\\pamtcc\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\desktop\\daniel\\pam-2bi-app\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\desktop\\daniel\\pam-2bi-app\\services\\sugestaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:services\\sugestaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|c:\\users\\mende\\desktop\\daniel\\pam-2bi-app\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFA6867-F0D4-4141-A0BC-C594C2778656}|PamTcc.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAYAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T01:44:18.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAFMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-20T01:43:58.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\ViewModels\\MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAuwJMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwBMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T01:41:50.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\Services\\UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\Services\\UsuarioService.cs",
               "RelativeToolTip": "Services\\UsuarioService.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAcwDoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwEAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T01:39:29.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T01:39:29.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SugestaoService.cs",
-              "DocumentMoniker": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\Services\\SugestaoService.cs",
+              "DocumentMoniker": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\Services\\SugestaoService.cs",
               "RelativeDocumentMoniker": "Services\\SugestaoService.cs",
-              "ToolTip": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\Services\\SugestaoService.cs",
+              "ToolTip": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\Services\\SugestaoService.cs",
               "RelativeToolTip": "Services\\SugestaoService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA4wFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwEEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T01:38:32.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T01:38:32.998Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\Models\\Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\Models\\Usuario.cs",
               "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T01:37:54.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T01:37:54.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Sugestao.cs",
-              "DocumentMoniker": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\Models\\Sugestao.cs",
+              "DocumentMoniker": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\Models\\Sugestao.cs",
               "RelativeDocumentMoniker": "Models\\Sugestao.cs",
-              "ToolTip": "C:\\Users\\mende\\Downloads\\pam-2bi-app-main\\PamTcc\\Models\\Sugestao.cs",
+              "ToolTip": "C:\\Users\\mende\\Desktop\\daniel\\pam-2bi-app\\Models\\Sugestao.cs",
               "RelativeToolTip": "Models\\Sugestao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T01:37:18.295Z",
               "EditorCaption": ""

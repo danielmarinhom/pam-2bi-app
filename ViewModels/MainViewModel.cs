@@ -31,7 +31,7 @@ namespace PamTcc.ViewModels
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
-        private void OnPropertyChanged([CallerMemberName] string? propertyName = null) =>
+        private void OnPropertyChanged([CallerMemberName] string? propertyName = null) => 
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
 
@@ -99,7 +99,7 @@ namespace PamTcc.ViewModels
 
         public async Task<bool> UpdateSugestaoAsync(Sugestao sugestao)
         {
-            var result = await _sugestaoService.UpdateSugestaoAsync(sugestao.Id, sugestao);
+            var result = await _sugestaoService.UpdateSugestaoAsync(sugestao.Id, sugestao); //colocar ? na sugetsao model api no usuario
             if (result)
             {
                 StatusMessage = "Atualizada";
@@ -109,7 +109,7 @@ namespace PamTcc.ViewModels
 
         public async Task<bool> DeleteSugestaoAsync(int id)
         {
-            var result = await _sugestaoService.DeleteSugestaoAsync(id);
+            var result = await _sugestaoService.DeleteSugestaoAsync(id); //<retorna o status ou false
             if (result)
             {
                 StatusMessage = "Deletada";
@@ -129,7 +129,7 @@ namespace PamTcc.ViewModels
                 {
                     foreach (var usuario in usuarios)
                     {
-                        usuario.Sugestoes = sugestoes?.FindAll(s => s.UsuarioId == usuario.Id) ?? new();
+                        usuario.Sugestoes = sugestoes?.FindAll(s => s.UsuarioId == usuario.Id) ?? new(); //adiciona usuario por usuario do get
                         Usuarios.Add(usuario);
                     }
 
