@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace PamTcc
+namespace AppRpgEtec
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

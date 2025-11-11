@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace PamTcc
+namespace AppRpgEtec
 {
     public class Program
     {

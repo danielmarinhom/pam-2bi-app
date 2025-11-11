@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace PamTcc
+namespace AppRpgEtec
 {
     public static class MauiProgram
     {
@@ -13,7 +13,7 @@ namespace PamTcc
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
+                }).UseMauiMaps();
 
 #if DEBUG
     		builder.Logging.AddDebug();
