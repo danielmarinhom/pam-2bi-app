@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\views\\personagens\\listagemview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:views\\personagens\\listagemview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\views\\disputas\\listagemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:views\\disputas\\listagemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\viewmodels\\disputas\\disputaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:viewmodels\\disputas\\disputaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\NugetPackages\\microsoft.windowsappsdk\\1.7.250606001\\buildTransitive\\Microsoft.WindowsAppSDK.SelfContained.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\viewmodels\\usuarios\\imagemusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:viewmodels\\usuarios\\imagemusuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\views\\personagens\\cadastropersonagemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:views\\personagens\\cadastropersonagemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\viewmodels\\personagens\\cadastropersonagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:viewmodels\\personagens\\cadastropersonagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\services\\disputaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:services\\disputaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\models\\disputa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:models\\disputa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\converters\\bytearraytolmageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:converters\\bytearraytolmageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\converters\\pontosvidaconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:converters\\pontosvidaconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\services\\personagemhabilidades\\personagemhabilidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:services\\personagemhabilidades\\personagemhabilidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\models\\personagemhabilidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:models\\personagemhabilidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\models\\habilidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:models\\habilidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\views\\personagens\\listagemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:views\\personagens\\listagemview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\viewmodels\\personagens\\listagempersonagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:viewmodels\\personagens\\listagempersonagemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|d:\\dan_rafiq\\pam\\pam-2bi-app\\services\\personagens\\personagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{859871A0-4B26-B373-0223-C95D8BE3019A}|AppRpgEtec.csproj|solutionrelative:services\\personagens\\personagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.WindowsAppSDK.SelfContained.targets",
+              "DocumentMoniker": "D:\\NugetPackages\\microsoft.windowsappsdk\\1.7.250606001\\buildTransitive\\Microsoft.WindowsAppSDK.SelfContained.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\NugetPackages\\microsoft.windowsappsdk\\1.7.250606001\\buildTransitive\\Microsoft.WindowsAppSDK.SelfContained.targets",
+              "ToolTip": "D:\\NugetPackages\\microsoft.windowsappsdk\\1.7.250606001\\buildTransitive\\Microsoft.WindowsAppSDK.SelfContained.targets",
+              "RelativeToolTip": "..\\..\\..\\NugetPackages\\microsoft.windowsappsdk\\1.7.250606001\\buildTransitive\\Microsoft.WindowsAppSDK.SelfContained.targets",
+              "ViewState": "AgIAADwAAAAAAAAAAAAlwEwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-25T12:18:27.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListagemView.xaml.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Views\\Personagens\\ListagemView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Personagens\\ListagemView.xaml.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Views\\Personagens\\ListagemView.xaml.cs",
+              "RelativeToolTip": "Views\\Personagens\\ListagemView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T11:33:29.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DisputaViewModel.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\ViewModels\\Disputas\\DisputaViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Disputas\\DisputaViewModel.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\ViewModels\\Disputas\\DisputaViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Disputas\\DisputaViewModel.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAowM0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:26:55.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListagemView.xaml",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Views\\Disputas\\ListagemView.xaml",
+              "RelativeDocumentMoniker": "Views\\Disputas\\ListagemView.xaml",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Views\\Disputas\\ListagemView.xaml",
+              "RelativeToolTip": "Views\\Disputas\\ListagemView.xaml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T11:32:54.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImagemUsuarioViewModel.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\ViewModels\\Usuarios\\ImagemUsuarioViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Usuarios\\ImagemUsuarioViewModel.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\ViewModels\\Usuarios\\ImagemUsuarioViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Usuarios\\ImagemUsuarioViewModel.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAJsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T12:18:49.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DisputaService.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Services\\DisputaService.cs",
+              "RelativeDocumentMoniker": "Services\\DisputaService.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Services\\DisputaService.cs",
+              "RelativeToolTip": "Services\\DisputaService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:22:21.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Disputa.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Models\\Disputa.cs",
+              "RelativeDocumentMoniker": "Models\\Disputa.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Models\\Disputa.cs",
+              "RelativeToolTip": "Models\\Disputa.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T12:14:30.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CadastroPersonagemView.xaml",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Views\\Personagens\\CadastroPersonagemView.xaml",
+              "RelativeDocumentMoniker": "Views\\Personagens\\CadastroPersonagemView.xaml",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Views\\Personagens\\CadastroPersonagemView.xaml",
+              "RelativeToolTip": "Views\\Personagens\\CadastroPersonagemView.xaml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwCQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T11:53:32.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CadastroPersonagemViewModel.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\ViewModels\\Personagens\\CadastroPersonagemViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Personagens\\CadastroPersonagemViewModel.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\ViewModels\\Personagens\\CadastroPersonagemViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Personagens\\CadastroPersonagemViewModel.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAmwA4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T11:50:16.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ByteArrayTolmageConverter.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Converters\\ByteArrayTolmageConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\ByteArrayTolmageConverter.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Converters\\ByteArrayTolmageConverter.cs",
+              "RelativeToolTip": "Converters\\ByteArrayTolmageConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:52:38.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PontosVidaConverter.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Converters\\PontosVidaConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\PontosVidaConverter.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Converters\\PontosVidaConverter.cs",
+              "RelativeToolTip": "Converters\\PontosVidaConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:53:57.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T10:30:30.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PersonagemHabilidadeService.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Services\\PersonagemHabilidades\\PersonagemHabilidadeService.cs",
+              "RelativeDocumentMoniker": "Services\\PersonagemHabilidades\\PersonagemHabilidadeService.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Services\\PersonagemHabilidades\\PersonagemHabilidadeService.cs",
+              "RelativeToolTip": "Services\\PersonagemHabilidades\\PersonagemHabilidadeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:37:31.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonagemHabilidade.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Models\\PersonagemHabilidade.cs",
+              "RelativeDocumentMoniker": "Models\\PersonagemHabilidade.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Models\\PersonagemHabilidade.cs",
+              "RelativeToolTip": "Models\\PersonagemHabilidade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:35:24.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Habilidade.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Models\\Habilidade.cs",
+              "RelativeDocumentMoniker": "Models\\Habilidade.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Models\\Habilidade.cs",
+              "RelativeToolTip": "Models\\Habilidade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:34:04.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ListagemView.xaml",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Views\\Personagens\\ListagemView.xaml",
+              "RelativeDocumentMoniker": "Views\\Personagens\\ListagemView.xaml",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Views\\Personagens\\ListagemView.xaml",
+              "RelativeToolTip": "Views\\Personagens\\ListagemView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T11:33:23.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ListagemPersonagemViewModel.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\ViewModels\\Personagens\\ListagemPersonagemViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Personagens\\ListagemPersonagemViewModel.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\ViewModels\\Personagens\\ListagemPersonagemViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Personagens\\ListagemPersonagemViewModel.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAgwHgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:54:23.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PersonagemService.cs",
+              "DocumentMoniker": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Services\\Personagens\\PersonagemService.cs",
+              "RelativeDocumentMoniker": "Services\\Personagens\\PersonagemService.cs",
+              "ToolTip": "D:\\dan_rafiq\\PAM\\pam-2bi-app\\Services\\Personagens\\PersonagemService.cs",
+              "RelativeToolTip": "Services\\Personagens\\PersonagemService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:53:16.681Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
