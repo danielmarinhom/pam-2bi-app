@@ -7,12 +7,12 @@ using AppRpgEtec.Models;
 
 namespace AppRpgEtec.Services
 {
-    public class DisputaService
+    public class DisputaService : Request
     {
         private readonly Request _request;
         private string _token;
 
-        private const string _apiUrlBase = "https://xyz/Disputa";
+        private const string _apiUrlBase = "https://rpglarissajefferson-braue0hjgsb4d3gq.brazilsouth-01.azurewebsites.net/Disputas"; //meu azure nao ta funcionando, peguei do colega
 
         public DisputaService(string token)
         {

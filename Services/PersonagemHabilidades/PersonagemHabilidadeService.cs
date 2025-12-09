@@ -6,12 +6,12 @@ using AppRpgEtec.Services;
 
 namespace AppRpgEtec.Services.PersonagemHabilidades
 {
-    public class PersonagemHabilidadeService
+    public class PersonagemHabilidadeService : Request
     {
-        private readonly Request _request;
+        private readonly Request _request = null;
         private readonly string _token;
 
-        private const string _apiUrlBase = "https://xyz/PersonagemHabilidades/";
+        private const string _apiUrlBase = "https://rpgraphael-dvejarfmgyfycwba.brazilsouth-01.azurewebsites.net/PersonagemHabilidades/"; //meu azure nao ta funcionando, peguei o do colega
 
         public PersonagemHabilidadeService(string token)
         {

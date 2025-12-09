@@ -2,6 +2,7 @@
 using AppRpgEtec.Models.Enuns;
 using AppRpgEtec.Services.Personagens;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Windows.Input;
 
 namespace AppRpgEtec.ViewModels.Personagens
@@ -29,24 +30,18 @@ namespace AppRpgEtec.ViewModels.Personagens
             CancelarCommand = new Command(async () => await CancelarCadastro());
         }
 
-        private async Task CancelarCadastro()
-        {
+        private async Task CancelarCadastro() =>
             await Shell.Current.GoToAsync("..");
-        }
 
         // ============================
-        // PROPRIEDADES DO PERSONAGEM
+        // PROPRIEDADES
         // ============================
 
         private int id;
         public int Id
         {
             get => id;
-            set
-            {
-                id = value;
-                OnPropertyChanged();
-            }
+            set { id = value; OnPropertyChanged(); }
         }
 
         private string nome;
@@ -102,70 +97,39 @@ namespace AppRpgEtec.ViewModels.Personagens
         public int Inteligencia
         {
             get => inteligencia;
-            set
-            {
-                inteligencia = value;
-                OnPropertyChanged();
-            }
+            set { inteligencia = value; OnPropertyChanged(); }
         }
 
         private int disputas;
         public int Disputas
         {
             get => disputas;
-            set
-            {
-                disputas = value;
-                OnPropertyChanged();
-            }
+            set { disputas = value; OnPropertyChanged(); }
         }
 
         private int vitorias;
         public int Vitorias
         {
             get => vitorias;
-            set
-            {
-                vitorias = value;
-                OnPropertyChanged();
-            }
+            set { vitorias = value; OnPropertyChanged(); }
         }
 
         private int derrotas;
         public int Derrotas
         {
             get => derrotas;
-            set
-            {
-                derrotas = value;
-                OnPropertyChanged();
-            }
+            set { derrotas = value; OnPropertyChanged(); }
         }
 
         // ============================
-        // CLASSE DO PERSONAGEM
+        // CLASSES DO PERSONAGEM
         // ============================
 
         private ObservableCollection<TipoClasse> listaTiposClasse;
         public ObservableCollection<TipoClasse> ListaTiposClasse
         {
             get => listaTiposClasse;
-            set
-            {
-                listaTiposClasse = value;
-                OnPropertyChanged();
-            }
-        }
-
-        private TipoClasse tipoClasseSelecionado;
-        public TipoClasse TipoClasseSelecionado
-        {
-            get => tipoClasseSelecionado;
-            set
-            {
-                tipoClasseSelecionado = value;
-                OnPropertyChanged();
-            }
+            set { listaTiposClasse = value; OnPropertyChanged(); }
         }
 
         public async Task ObterClasses()
@@ -178,8 +142,20 @@ namespace AppRpgEtec.ViewModels.Personagens
             };
         }
 
+        private TipoClasse tipoClasseSelecionado;
+        public TipoClasse TipoClasseSelecionado
+        {
+            get => tipoClasseSelecionado;
+            set
+            {
+                tipoClasseSelecionado = value;
+                OnPropertyChanged();
+                ((Command)SalvarCommand).ChangeCanExecute();
+            }
+        }
+
         // ============================
-        // SALVAR PERSONAGEM
+        // SALVAR
         // ============================
 
         public async Task SalvarPersonagem()
@@ -230,6 +206,9 @@ namespace AppRpgEtec.ViewModels.Personagens
 
         public async void CarregarPersonagem()
         {
+            if (string.IsNullOrEmpty(personagemSelecionadoId))
+                return;
+
             try
             {
                 Personagem p = await pService.GetPersonagemAsync(int.Parse(personagemSelecionadoId));
@@ -260,7 +239,7 @@ namespace AppRpgEtec.ViewModels.Personagens
 
         public bool ValidarCampos()
         {
-            return !string.IsNullOrEmpty(Nome)
+            return !string.IsNullOrWhiteSpace(Nome)
                 && Forca > 0
                 && Defesa > 0
                 && TipoClasseSelecionado != null

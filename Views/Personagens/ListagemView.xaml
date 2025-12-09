@@ -54,18 +54,27 @@
                                     <RowDefinition Height="Auto"/>
                                 </Grid.RowDefinitions>
 
+                                <!-- BoxView corrigido -->
                                 <BoxView Grid.RowSpan="2"
+                                         Grid.Column="0"
                                          HeightRequest="50"
                                          WidthRequest="20"
-                                         Color="{Binding PontosVida, Converter={StaticResource ColorConvert}}" />
+                                         Color="{Binding PontosVida, Converter={StaticResource ColorConvert}}"
+                                         VerticalOptions="Center"
+                                         HorizontalOptions="Center"
+                                         CornerRadius="20" />
 
-                                <StackLayout Padding="10">
-                                    <Label Text="{Binding Nome}" 
-                                           FontSize="18" 
-                                           FontAttributes="Bold"/>
-                                    <Label Text="{Binding PontosVida}" 
-                                           FontSize="14"/>
-                                </StackLayout>
+                                <!-- Remoção do StackLayout e substituição por Labels diretos no Grid -->
+                                <Label Grid.Row="0" 
+                                       Grid.Column="1"
+                                       Text="{Binding Nome}" 
+                                       FontSize="18" 
+                                       FontAttributes="Bold"/>
+
+                                <Label Grid.Row="1" 
+                                       Grid.Column="1"
+                                       Text="{Binding PontosVida}" 
+                                       FontSize="14"/>
 
                             </Grid>
 
